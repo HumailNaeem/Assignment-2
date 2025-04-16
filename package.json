@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "jquery": "^3.7.1",
+    "jsdom": "^26.1.0"
+  },
+  "name": "22f-3395_bcs-6e_web_ass02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/filtering.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

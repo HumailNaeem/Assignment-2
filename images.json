@@ -1,0 +1,248 @@
+{
+  "images": [
+    {
+      "src": "./styles/img/business13.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business2.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/portrait7.jpeg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/person23.jpeg",
+      "genre": "person"
+    },
+    {
+      "src": "./styles/img/business74.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/nature6.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/nature3.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/business66.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business16.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business68.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/portrait3.jpeg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/nature1.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/portrait11.jpeg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/business1.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business58.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business5.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/tech9.jpg",
+      "genre": "tech"
+    },
+    {
+      "src": "./styles/img/business50.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business49.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/tech7.jpg",
+      "genre": "tech"
+    },
+    {
+      "src": "./styles/img/business18.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/portrait47.jpg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/person19.jpeg",
+      "genre": "person"
+    },
+    {
+      "src": "./styles/img/business39.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/nature18.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/nature19.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/business19.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business83.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/portrait45.jpg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/business73.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/nature14.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/nature9.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/business55.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business10.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/person5.jpeg",
+      "genre": "person"
+    },
+    {
+      "src": "./styles/img/business80.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/nature17.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/nature15.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/business40.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/portrait29.jpg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/business61.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/portrait34.jpg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/person12.jpeg",
+      "genre": "person"
+    },
+    {
+      "src": "./styles/img/business4.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/nature11.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/business51.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/business60.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/portrait33.jpg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/person11.jpeg",
+      "genre": "person"
+    },
+    {
+      "src": "./styles/img/business34.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/nature16.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/nature10.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/business11.jpeg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/person9.jpeg",
+      "genre": "person"
+    },
+    {
+      "src": "./styles/img/business56.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/nature20.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/nature12.jpeg",
+      "genre": "nature"
+    },
+    {
+      "src": "./styles/img/business45.jpg",
+      "genre": "business"
+    },
+    {
+      "src": "./styles/img/tech2.jpg",
+      "genre": "tech"
+    },
+    {
+      "src": "./styles/img/portrait5.jpeg",
+      "genre": "portrait"
+    },
+    {
+      "src": "./styles/img/portrait9.jpeg",
+      "genre": "portrait"
+    }
+  ]
+}

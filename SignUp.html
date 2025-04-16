@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - BitmapStocks</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body class="bodys">
+    <!-- Header (same as contact page) -->
+    <header class="header bg-white" id="header">
+      <nav class="navbar navbar-expand-lg navigation py-0">
+        <div class="container-fluid">
+          <div class="logo__searchBar d-flex align-items-center">
+            <div class="logo me-4 ms-4">
+              <img
+                src="./styles/img/bitmapStock(purple trans.png"
+                alt="BitmapStock logo"
+                class="img-fluid"
+                style="width: 160px"
+              />
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navigation__list ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-1">
+                <a href="./index.html" class="nav-link list__items py-1"
+                  >Explore</a
+                >
+              </li>
+              <li class="nav-item px-1">
+                <a href="./About.html" class="nav-link list__items py-1"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item px-1">
+                <a href="./Contact.html" class="nav-link list__items py-1"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <a href="./login.html" class="cta btn ms-lg-3 px-3 py-2 me-4"
+              >Login</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Chatbot Trigger Button -->
+    <div class="chatbot-trigger" id="chatbotTrigger">
+      <i class="fas fa-comment-dots"></i>
+    </div>
+
+    <!-- Chatbot Popup -->
+    <div class="chatbot-popup" id="chatbotPopup">
+      <div class="chatbot-header">
+        <div class="d-flex align-items-center">
+          <div class="chatbot-avatar">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="ms-3">
+            <h6 class="mb-0">Support Bot</h6>
+            <small class="online-text text-muted">Online</small>
+          </div>
+        </div>
+        <button class="btn btn-sm btn-close" id="closeChatbot"></button>
+      </div>
+
+      <div class="chatbot-body" id="chatbotMessages">
+        <div class="chatbot-message chatbot-received">
+          <div class="message-content">Hello! How can I help you today?</div>
+          <div class="message-time">10:00 AM</div>
+        </div>
+      </div>
+
+      <div class="chatbot-footer">
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            id="userMessage"
+            placeholder="Type your message..."
+          />
+          <button class="btn btn-primary" id="sendMessage">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Main Signup Content -->
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="signup-container">
+            <!-- Header Section -->
+            <div class="signup-header text-center">
+              <h2 class="display-5 fw-bold mb-3">Create Your Account</h2>
+              <p class="fs-5">
+                Join BitmapStocks to access premium stock photos and exclusive
+                deals
+              </p>
+            </div>
+
+            <!-- Form Section -->
+            <div class="signup-form">
+              <form>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    required
+                  />
+                  <div class="form-text">
+                    At least 8 characters with numbers and symbols
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="confirmPassword" class="form-label"
+                    >Confirm Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirmPassword"
+                    required
+                  />
+                </div>
+
+                <div class="mb-4 form-check">
+                  <input type="checkbox" class="form-check-input" id="terms" />
+                  <label class="form-check-label" for="terms"
+                    >I agree to the
+                    <a href="#" class="text-purple">Terms of Service</a> and
+                    <a href="#" class="text-purple">Privacy Policy</a></label
+                  >
+                </div>
+
+                <button type="submit" class="btn btn-purple w-100 mb-3">
+                  Create Account
+                </button>
+
+                <div class="divider">OR</div>
+
+                <button
+                  type="button"
+                  class="btn social-btn btn-outline-secondary w-100"
+                >
+                  <i class="fab fa-google"></i> Continue with Google
+                </button>
+                <button
+                  type="button"
+                  class="btn social-btn btn-outline-secondary w-100"
+                >
+                  <i class="fab fa-facebook-f"></i> Continue with Facebook
+                </button>
+
+                <div class="text-center mt-4">
+                  <p>
+                    Already have an account?
+                    <a href="./login.html" class="text-purple fw-bold"
+                      >Log In</a
+                    >
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - BitmapStocks</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="./styles/img/bitmapStock(fav trans).png" />
+  </head>
+
+  <body class="root">
+    <!-- Header Section -->
+    <header class="header fixed-top bg-white" id="header">
+      <nav class="navbar navbar-expand-lg navigation py-0">
+        <div class="container-fluid">
+          <div class="logo__searchBar d-flex align-items-center">
+            <div class="logo me-4 ms-4">
+              <img
+                src="./styles/img/bitmapStock(purple trans.png"
+                alt="BitmapStock logo"
+                class="img-fluid"
+                style="width: 160px"
+              />
+            </div>
+            <div class="searchBar position-relative">
+              <input
+                type="search"
+                class="form-control ps-5"
+                name="search"
+                id="search"
+                placeholder="search..."
+              />
+              <i
+                class="fa-solid fa-magnifying-glass position-absolute top-50 start-0 translate-middle-y ms-3"
+              ></i>
+            </div>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navigation__list ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-1">
+                <a href="./index.html" class="nav-link list__items py-1"
+                  >Explore</a
+                >
+              </li>
+              <li class="nav-item px-1">
+                <a href="./About.html" class="nav-link list__items py-1"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item px-1">
+                <a href="./Contact.html" class="nav-link list__items py-1"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <a href="./Login.html" class="cta btn ms-lg-3 px-3 py-2 me-4"
+              >Login</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Chatbot Trigger Button -->
+    <div class="chatbot-trigger" id="chatbotTrigger">
+      <i class="fas fa-comment-dots"></i>
+    </div>
+
+    <!-- Chatbot Popup -->
+    <div class="chatbot-popup" id="chatbotPopup">
+      <div class="chatbot-header">
+        <div class="d-flex align-items-center">
+          <div class="chatbot-avatar">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="ms-3">
+            <h6 class="mb-0">Support Bot</h6>
+            <small class="online-text text-muted">Online</small>
+          </div>
+        </div>
+        <button class="btn btn-sm btn-close" id="closeChatbot"></button>
+      </div>
+
+      <div class="chatbot-body" id="chatbotMessages">
+        <div class="chatbot-message chatbot-received">
+          <div class="message-content">Hello! How can I help you today?</div>
+          <div class="message-time">10:00 AM</div>
+        </div>
+      </div>
+
+      <div class="chatbot-footer">
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            id="userMessage"
+            placeholder="Type your message..."
+          />
+          <button class="btn btn-primary" id="sendMessage">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Team Section -->
+    <div class="container my-5">
+      <div class="text-center mb-2 pt-5 pb-3">
+        <h2 class="display-5 fw-semibold">Our Team</h2>
+      </div>
+
+      <div class="sub-container row justify-content-center g-4">
+        <!-- Team Member 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div
+            class="team p-4 text-center bg-white rounded-3 shadow-sm h-100 hover-effect"
+          >
+            <img
+              src="./styles/img/836.jpg"
+              alt="Humail Naeem"
+              class="img-fluid rounded-circle mb-4"
+              width="200"
+            />
+            <h3 class="name fw-bold fs-4 mb-2">Dummy 1</h3>
+            <p class="design text-muted fst-italic mb-3">Manager</p>
+            <p class="about text-muted">
+              My team and I work hard to provide our customers the best image
+              selling experience.
+            </p>
+          </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div
+            class="team p-4 text-center bg-white rounded-3 shadow-sm h-100 hover-effect"
+          >
+            <img
+              src="./styles/img/Humail.jpeg"
+              alt="Humail Naeem"
+              class="img-fluid rounded-circle mb-4"
+              width="200"
+            />
+            <h3 class="name fw-bold fs-4 mb-2">Humail Naeem</h3>
+            <p class="design text-muted fst-italic mb-3">CEO</p>
+            <p class="about text-muted">
+              Providing the best photo selling platform to our customers is my
+              responsibility.
+            </p>
+          </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div
+            class="team p-4 text-center bg-white rounded-3 shadow-sm h-100 hover-effect"
+          >
+            <img
+              src="./styles/img/836.jpg"
+              alt="Dummy 2"
+              class="img-fluid rounded-circle mb-4"
+              width="200"
+            />
+            <h3 class="name fw-bold fs-4 mb-2">Dummy 2</h3>
+            <p class="design text-muted fst-italic mb-3">Graphic Designer</p>
+            <p class="about text-muted">
+              I ensure that our customers get the best interface to avoid
+              distractions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Description Section -->
+    <div class="container my-5">
+      <p class="Paragraph text-center fs-5 mx-auto" style="max-width: 80%">
+        Bit Maps Stock is a platform that enables individuals and businesses to
+        sell their photos to interested buyers. It provides a variety of
+        features and tools to help sellers effectively manage and promote their
+        work.
+      </p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
